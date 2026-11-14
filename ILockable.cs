@@ -1,0 +1,19 @@
+﻿/****************/
+/* Mã sinh viên: 202419003 */
+/* Họ tên: Nguyễn Thành Trung */
+/****************/
+
+namespace SmartHomeMini
+{
+    public interface IDevice
+    {
+        void TurnOn();
+        void TurnOff();
+    }
+
+    public interface ILockable
+    {
+        void Lock();
+        void Unlock();
+    }
+}
